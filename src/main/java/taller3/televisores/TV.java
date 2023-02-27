@@ -36,7 +36,7 @@ public class TV {
 		canal = can;
 	}
 	
-	public void setNumTV(int num) {
+	public static void setNumTV(int num) {
 		numTV = num;
 	}
 	
@@ -58,7 +58,7 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	
