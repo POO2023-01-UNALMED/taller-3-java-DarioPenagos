@@ -34,7 +34,8 @@ public class TV {
 		volumen = vol;
 	}
 	public void setCanal(int can) {
-		canal = can;
+		if(estado && can > 0 && 121 > can)
+			canal = can;
 	}
 	
 	public static void setNumTV(int num) {
@@ -76,7 +77,7 @@ public class TV {
 	}
 	public void canalDown() {
 		if(estado && canal > 1 && 120 > canal)
-		canal--;
+			canal--;
 	}
 	public void volumenUp() {
 		if(estado && 7 > volumen)
