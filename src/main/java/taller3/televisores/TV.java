@@ -15,7 +15,7 @@ public class TV {
 		canal = 1;
 		volumen = 1;
 		precio = 500;
-		numTv += 1;
+		numTV += 1;
 	}
 	
 	public void setMarca(Marca marc) {
