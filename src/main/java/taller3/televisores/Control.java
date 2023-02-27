@@ -6,7 +6,7 @@ public class Control {
 	public void turnOn() {
 		tv.setEstado(true);
 	}
-	public void turnOf() {
+	public void turnOff() {
 		tv.setEstado(false);
 	}
 	
