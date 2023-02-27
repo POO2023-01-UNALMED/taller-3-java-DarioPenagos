@@ -65,7 +65,7 @@ public class TV {
 	public void turnOn() {
 		estado = true;
 	}
-	public void turnOf() {
+	public void turnOff() {
 		estado = false;
 	}
 	
