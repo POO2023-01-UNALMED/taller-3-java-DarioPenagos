@@ -34,7 +34,8 @@ public class Control {
 	public void set(TV t) {
 		tv = t;
 	}
-	public TV get() {
+	public TV getTv() {
+
 		return tv;
 	}
 	
